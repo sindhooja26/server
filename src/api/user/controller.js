@@ -11,7 +11,7 @@ export const AddData = (req, res) => {
   });
 }
 
-export const Getdata=(req,res)=>{
+export const GetData=(req,res)=>{
   registration.find({},req.body,(err,result)=>{
     if(err){
       res.send(err);
