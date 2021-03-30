@@ -1,6 +1,6 @@
 import { Router } from 'express'
 
-import { AddData,GetData,DeleteData
+import { AddData,GetData,Deletedata
 
  } 
  from './controller'
@@ -8,7 +8,7 @@ import { AddData,GetData,DeleteData
 const router = new Router()
 
 router.post('/AddData', AddData)
-router.get('/GetData', GetData)
+router.get('/Getdata', GetData)
 
-router.delete('/AddData/:id',DeleteData)
+router.delete('/AddData/:id',Deletedata)
 export default router
